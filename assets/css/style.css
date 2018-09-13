@@ -1,0 +1,70 @@
+.jumbotron{
+	border: 5px solid grey;
+	background: rgba(128,128,128,.25);
+	margin-top: 50px;
+}
+
+#portfolio{
+	height: 100vh;
+}
+
+#skills{
+	height: 100vh;
+}
+
+#progress1{
+	animation-delay: .5s;
+}
+
+#progress2{
+	animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+
+/*desktop style*/
+@media only screen and (min-width: 961px){
+	
+}
+
+
+/*table style*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	
+}
+
+
+/*mobile style*/
+@media only screen and (max-width: 400px){
+	
+}
