@@ -20,94 +20,199 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">SKIZM</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-	      </li>
-
-	      <li class="nav-item">
-	        <a class="nav-link" href="#portfolio">Portfolio</a>
-	      </li>
-
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact</a>
-	      </li>
-
-	    </ul>
-	  </div>
-	</nav>  <!-- end of navbar -->
-
-
-	<div class="container">
+	<div class="container-fluid">
 
 		<div class="row">
-			<div class="col-lg-1"></div>	
-			<div class="col-lg-10 col-md-12 col-sm-12">
-				<div class="jumbotron jumbotron-fluid">
-				  <div class="container">
-				    <h1 class="display-3">Ramon Calanoc</h1>
-				    <h1 class="display-6">Fullstack Web Developer</h1>
-				    <p class="lead">Check out my <a href="#portfolio"><STRONG>portfolio!</STRONG></a></p>
-				  </div>
-				</div>
-			</div>	
-		</div> <!-- end of jumbotron -->
+			<nav class="navbar navbar-expand-lg navbar-dark col-lg-12 fixed-top">
+			  <a class="navbar-brand" href="#">SKIZM</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#home">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#skills">Skills</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#portfolio">Portfolio</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>   <!-- end of navbar -->
+		</div> <!-- end of row -->
 
 
-		<div class="row">
-			<div class="col-lg-1"></div>	
-			<div class="col-lg-10 col-md-12 col-sm-12">
-				<div class="text-center animated bounce" id="portfolio">
-					<h1>My Portfolio</h1>
-				</div>
+		<div id="home" class="row">
+			<div class="row1">
+				<img class="layer0" src="assets/images/background.png">
 			</div>
-		</div>  <!-- end of my portfolio -->
+			<div class="row2 col-lg-12">
+				<h1 class="text-center font1 ">Ramon Calanoc</h1>
+				<h5 class="text-center font2">Full Stack Web Developer</h5>
+			</div>
+		</div>  <!-- end of home -->
 
 
-		<div class="row">
-			<div class="col-lg-1"></div>	
-			<div class="col-lg-10 col-md-12 col-sm-12">
-				<div class="text-center" id="skills">
-					<h1 class="animated flipInX">My Skills</h1>
-					<div class="container">
 
-						<div class="row mt-5">
-							<div class="col-lg-1"></div>	
-							<div class="col-lg-10 col-md-12 col-sm-12 animated flipInY" id="progress1">
-								<h4>HTML</h4>
-								<div class="progress">
-								   	<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
-								</div>
-							</div>
-						</div>  <!-- end of HTML row -->
+		<div id="about" class="row">
 
-						<div class="row mt-5">
-							<div class="col-lg-1"></div>	
-							<div class="col-lg-10 col-md-12 col-sm-12 animated flipInY" id="progress2">
-								<h4>CSS</h4>
-								<div class="progress">
-								   	<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
-								</div>
+			<div class="col-lg-5 col-md-7 text-justify"></div>
+
+			<div class="about col-lg-6 col-md-5 text-center">
+				<h1>Hi! my name is Ramon</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>	
+		</div>   <!-- end of about -->
+
+
+		<div id="skills" class="row">
+			<div class="row2 col-lg-12 skill-font">
+				<h1 class="text-center">My Skills</h1>
+			</div>
+
+			<div class="row col-lg-12">
+				<div class="html col-lg-4 col-md-4 col-sm-12 contain-skills">
+					<div class="fa-10x text-center fa-boarder">
+					  	<i class="fab fa-html5"></i>
+					 	<h1 class="my-5">HTML</h1>
+					  	<div class="progress">
+						  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+						  	50%
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="html col-lg-4 col-md-4 col-sm-12 contain-skills">
+					<div class="fa-10x text-center fa-boarder">
+					 	<i class="fab fa-css3-alt"></i>
+						<h1 class="my-5">CSS</h1>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+						  	45%
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="html col-lg-4 col-md-4 col-sm-12 contain-skills">
+					<div class="fa-10x text-center fa-boarder">
+						<i class="fas fa-bold"></i>
+						<h1 class="my-5">BOOTSTRAP</h1>
+						<div class="progress">
+						 	<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+						  	30%
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
+		</div>   <!-- end of skills -->
 
-		</div>  
+
+		<div id="portfolio" class="row portfolio">
+
+			<div class="row2 col-lg-12 font1">
+				<h1 class="text-center">Portfolio</h1>
+			</div>
+
+			
+		</div>   <!-- end of portfolio -->
 
 
-	</div>   <!-- end of container -->
+		<div id="contact" class="row font3">
+
+			<div class="row2 col-lg-12 font1">
+				<h1 class="text-center">Contacts</h1>
+			</div>
+
+			<div id="social" class="row col-lg-6 col-md-12 col-sm-12">
+
+		        <div  class="col-lg-4 col-md-4 col-sm-12 text-center">
+					<a href="https://www.facebook.com/ramon.calanoc">
+						<div class="col-lg-4">
+		          			<div class="fa-7x text-center fa-boarder">
+								<i class="fab fa-facebook-square"></i>
+							</div>
+						</div>
+					</a>
+		        </div>
+
+		        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+		        	<a href="https://www.youtube.com/channel/UCZEKdPM75hZPd0CoC_WGHnQ">
+			        	<div class="fa-7x text-center fa-boarder">
+							<i class="fab fa-youtube-square"></i>
+						</div>
+					</a>
+		        </div>
+
+		        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+		        	<a href="https://gitlab.com/tuitt/students/b6nc/ramon-c-calanoc">
+			        	<div class="fa-7x text-center fa-boarder">
+							<i class="fab fa-gitlab"></i>
+						</div>
+					</a>
+		        </div>
+		    </div>   <!-- for the social media -->
+
+
+		          <div class="col-lg-6 col-md-12 col-sm-12 p-3">
+		            <form class="form-horizontal">
+		              <legend>Reach me here</legend>
+
+		              <div class="form-group">
+		                <label class="col-lg-12" for="fullname"></label>
+		                <input id="fullname" name="fullname" placeholder="Full Name" class="form-control" type="text">
+		              </div>
+
+		              <div class="form-group">
+		                <label class="col-lg-12" for="email"></label>
+		                <input id="email" name="email" placeholder="Email" class="form-control" type="email">
+		              </div>
+
+		              <div class="form-group">
+		                <label class="col-lg-12" for="message"></label>
+		                <textarea class="form-control" id="message" name="message" placeholder="Type your message here"></textarea>
+		              </div>
+
+		              <div class="form-group">
+		                <div class="col-lg-4">
+		                  <button id="submit" name="submit" class="btn btn-outline-primary">Submit</button>
+		                </div>
+		              </div>
+		            </form>
+		          </div>   <!-- for the contact form -->
+		      </div>
+		</div>   <!-- end of contact -->
+
+		<footer class="footer text-center font3">
+			&copy; Copyright 2018 | Ramon Calanoc
+		</footer>
 	
+	</div>   <!-- end of container -->
+
 
 
 
