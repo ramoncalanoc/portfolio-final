@@ -20,15 +20,27 @@
 
 .font1{
   font-family: titlefont;
+  letter-spacing: 3px;
 }
 
 .font2{
   font-family: subtitle;
+  letter-spacing: 3px;
 }
 
 .font3{
   font-family: contentfont;
+  letter-spacing: 3px;
   color: white;
+}
+
+.fontcolor1{
+  color: rgb(229, 231, 232);
+}
+
+
+.fontcolor2{
+  color:rgb(226,52,42);
 }
 
 .navbar{
@@ -101,7 +113,7 @@
 }
 
 .contain-skills{
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 100px;
   color: white;
 }
@@ -130,6 +142,10 @@
   margin-top: 100px;
 }
 
+.pict{
+  width: 100%;
+  border: 6px solid rgba(165, 226, 239, .3);
+}
 
 
 /*desktop style*/
